@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class NSJS2023 : ModuleRules
+public class WeAreOne : ModuleRules
 {
-	public NSJS2023(ReadOnlyTargetRules Target) : base(Target)
+	public WeAreOne(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	

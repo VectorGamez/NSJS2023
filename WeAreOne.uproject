@@ -5,7 +5,7 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "NSJS2023",
+			"Name": "WeAreOne",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
