@@ -1,9 +1,9 @@
 Import-Module -Name ( Resolve-Path( Join-Path -Path ( $PSScriptRoot ) -ChildPath "..\Scripts.psm1" ) ) -ErrorAction Stop -Force
 
 RunEditor @( 
-    "127.0.0.1"
-    "-ResX=1024"
-    "-ResY=768"
+    "$($global:context.ConfigInfos.ClientOptions.IPAddress)"
+    "-ResX=$($global:context.ConfigInfos.ClientOptions.Width)"
+    "-ResY=$($global:context.ConfigInfos.ClientOptions.Height)"
     "-game"
     "-windowed"
     "-log"

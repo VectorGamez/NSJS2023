@@ -1,0 +1,14 @@
+{
+    "Debug" : false,
+    "ServerOptions" :
+    {
+        "MapName" : "L_Test_001"
+    },
+    "ClientOptions" :
+    {
+        "IPAddress" : "127.0.0.1",
+        "Width" : 1024,
+        "Height" : 768
+    }
+    
+}
