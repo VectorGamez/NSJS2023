@@ -77,3 +77,6 @@ DerivedDataCache/*
 .vs/*
 .vsconfig
 Builds/*
+
+# WeAreOne Specific stuff
+Scripts/Config.json
