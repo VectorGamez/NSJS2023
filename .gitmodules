@@ -1,0 +1,3 @@
+[submodule "Plugins/GameFramework"]
+	path = Plugins/GameFramework
+	url = git@github.com:VectorGamez/UEGameFramework.git
